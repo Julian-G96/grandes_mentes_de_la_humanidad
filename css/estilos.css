@@ -1,0 +1,317 @@
+.foto{
+    margin-left: 13%;
+    width: 850px;
+    height: 200px;
+
+}
+
+html{
+    font-size: 100%;
+}
+
+p {
+    color:rgb(74, 23, 23);
+}
+.parrafoazul{
+    color: blue;
+}
+
+#header{
+    color: #ffffff;
+    background-color: white;
+}
+
+.parrafo{
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif, font-family, 'Abyssinica SIL', serif;
+    overflow: auto;
+    width: 800px;
+    height: 220px;
+    margin-left: 185px;
+    background-color: bisque;
+    color: rgd(249, 7, 7);
+
+}
+.listas{
+    display: inline-block;
+    display: flex; flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    color: rgb(21, 16, 118);
+    list-style-type: none;
+    font-weight: bold;
+    text-decoration: underline;
+    background-color: bisque;
+    border: solid 1px black;
+    height: 45px;
+    align-items: center;
+    a:visited
+}
+
+.titulo{
+    text-decoration: underline;
+    margin: 10px 50px 15px 245px;
+    padding: 0px;
+}    
+
+.publicidad{
+    margin-top:2px;
+    margin-right: 350px;
+    margin-bottom:2px;
+    margin-left: 380px;
+    width: 400px;
+    height: 350px;
+}
+
+.opcionesini{
+    display: inline;
+    display: inline;
+}
+
+.opciones{
+    display: inline;    
+    display: inline;
+}
+
+.opcionesimg{
+    display: inline;
+}
+
+.opcionesatc{
+    display: inline;
+    display: inline;
+}
+
+.opcionesmus{
+    display: inline;
+    border: 2px black;
+    display: inline;
+}
+
+.opcionescon{
+    display: inline;
+    border: 2px black;
+    display: inline;
+}
+
+
+.principalh{
+    text-decoration: underline;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.menu{
+    
+    
+}
+
+.logos{
+    display: flex;
+    flex-direction: row;
+    height: 3px;
+    width: 3px;
+}    
+.whatsappimg {
+    height: 45px;
+    width: 45px;
+    border-radius: 21px;
+    position: fixed;
+    top: 80px;
+    left: 10px;
+}
+
+.twitterimg{
+    height: 45px;
+    width: 45px;
+    border-radius: 35px;
+    position: fixed;
+    top: 120px;
+}
+
+.facebookimg{
+    height: 45px;
+    width: 45px;
+    border-radius: 36px;
+    position: fixed;
+    top: 160px;
+}
+.plinioind{
+    width: 400px;
+    height: 495px;
+    z-index: 1000;
+}
+
+
+.email{
+    height: 45px;
+    width: 45px;
+    border-radius: 35px;
+    position: fixed;
+    top: 200px;
+}
+.vavilovind{
+    width: 400px;
+}
+.steveind{
+    width: 400px;
+    height: 495px;
+    
+}
+
+
+
+
+
+
+
+.tituloart{
+    border: 20px red;
+    text-decoration: underline;
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+}   
+
+.prueba{
+    margin-left: 400px ;
+    
+}
+.listaart{
+    display: inline-block;
+    display: flex; flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    color: rgb(234, 27, 27);
+    list-style-type: none;
+    font-weight: bold;
+    text-decoration: underline;
+    background-color: bisque;
+    border: solid 1px black;
+    height: 45px;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+.contactocon{
+    text-decoration: underline;
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    
+}
+
+
+
+
+
+
+
+
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "foto principal"
+    "titulo principal"
+    "foto descripcion footer"
+    "foto descripcion footer"
+    "foto descripcion footer"
+    "foto descripcion footer"
+    "foto descripcion footer"
+    ;
+}
+.imagenpriima{
+    grid-area: foto principal;
+    
+}
+.tituloimg{
+    grid-area: titulo principal;
+}
+.curie{
+    display: grid;
+    grid-area: foto descripcion footer;
+    justify-content: start;
+
+}
+.oppenheimer{
+    grid-area: foto descripcion footer;
+    justify-items: start;
+}
+.vavilov{
+    grid-area: foto descripcion;
+    justify-items: start;
+}
+.vavilovp{
+    grid-area: foto descripcion;
+    justify-items: start;
+}
+.footerimg{
+    display: none;
+
+}
+
+
+
+.tituloimg{
+    text-decoration: underline;
+    display: block;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px 0px 40px 0px;
+
+}
+.oppenheimer{
+    display: block;
+    height: 270px;
+    width: 200px;
+    border-radius: 40px;
+}
+.vavilov{
+    display: block;
+    height: 270px;
+    width: 200px;
+    border-radius: 40px;
+}
+.curie{
+    display: block;
+    height: 270px;
+    width: 200px;
+    border-radius: 40px;
+}
+.heisenberg{
+    display: block;
+    height: 270px;
+    width: 200px;
+    border-radius: 40px;
+}
+.vavilovp{
+    display: block;
+    height: 270px;
+    width: 200px;
+    border-radius: 40px;
+}
+.imagenpriima{
+    margin-left: 17%;
+    height: 380xp;
+    width: 820px;
+}
+.imasecima{
+    margin-left: 200px;
+    display: flex;
+    justify-content: center;
+}
+.headima{
+    background-color: 2px black;
+}

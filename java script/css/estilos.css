@@ -1,0 +1,199 @@
+.foto{
+    width: 850px;
+    height: 200px;
+
+}
+
+html{
+    font-size: 100%;
+}
+
+p {
+    color:rgb(74, 23, 23);
+}
+.parrafoazul{
+    color: blue;
+}
+
+#header{
+    color: #ffffff;
+    background-color: white;
+}
+
+.parrafo{
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif, font-family, 'Abyssinica SIL', serif;
+    overflow: auto;
+    width: 800px;
+    height: 220px;
+    margin-left: 185px;
+    background-color: bisque;
+    color: rgd(249, 7, 7);
+
+}
+.listas{
+    display: block;
+    display: flex; flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    color: rgb(21, 16, 118);
+    list-style-type: none;
+    font-weight: bold;
+    text-decoration: underline;
+    background-color: bisque;
+    border: solid 1px black;
+    height: 45px;
+    align-items: center;
+    
+}
+
+.titulo{
+    text-decoration: underline;
+    margin: 10px 50px 15px 245px;
+    padding: 0px;
+}    
+
+.publicidad{
+    margin-top:2px;
+    margin-right: 350px;
+    margin-bottom:2px;
+    margin-left: 380px;
+    width: 400px;
+    height: 350px;
+}
+
+.opcionesini{
+    display: inline;
+    display: inline;
+}
+
+.opciones{
+    display: inline;    
+    display: inline;
+}
+
+.opcionesimg{
+    display: inline;
+}
+
+.opcionesatc{
+    display: inline;
+    display: inline;
+}
+
+.opcionesmus{
+    display: inline;
+    border: 2px black;
+    display: inline;
+}
+
+.opcionescon{
+    display: inline;
+    border: 2px black;
+    display: inline;
+}
+
+
+.principalh{
+    text-decoration: underline;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.menu{
+    
+}
+
+.logos{
+    display: flex;
+    flex-direction: row;
+    height: 3px;
+    width: 3px;
+}    
+.whatsappimg {
+    height: 45px;
+    width: 45px;
+    border-radius: 20px;
+    margin-left: -3px;
+    position: fixed;
+    top: 80px;
+    left: 10px;
+}
+
+.twitterimg{
+    height: 45px;
+    width: 45px;
+    border-radius: 35px;
+    margin-left: -3px;
+    position: fixed;
+    top: 120px;
+}
+
+.facebookimg{
+    height: 45px;
+    width: 45px;
+    border-radius: 35px;
+    margin-left: -5px;
+    position: fixed;
+    top: 160px;
+}
+.email{
+    height: 45px;
+    width: 45px;
+    border-radius: 35px;
+    margin-left: -5px;
+    position: fixed;
+    top: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tituloart{
+    border: 20px red;
+    text-decoration: underline;
+    margin-left: 40px;
+}   
+
+.prueba{
+    margin-left: 80px ;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.vavilov{
+    
+}
